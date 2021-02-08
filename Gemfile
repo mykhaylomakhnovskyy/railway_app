@@ -11,6 +11,8 @@ gem 'pg', '~> 1.2.3'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'rails-ujs', '~> 0.1.0'
 
+gem 'sendgrid-actionmailer'
+
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
 # Use SCSS for stylesheets
