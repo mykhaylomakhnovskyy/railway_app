@@ -1,11 +1,11 @@
 $(document).ready(function(){
     $('.places').hide();
-    show_carriage_attr($('#carriage_type').val());
+    show_carriage($('#carriage_type').val());
 
     $('#carriage_type').on('change', function (e) {
         $(".places input").val("");
         $('.places').hide();
-        show_carriage_attr(e.target.value);
+        show_carriage(e.target.value);
     });
     function show_carriage(type) {
         if(type === 'CoupeCarriage') {
