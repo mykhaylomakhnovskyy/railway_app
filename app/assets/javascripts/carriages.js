@@ -3,7 +3,7 @@ $(document).ready(function(){
     show_carriage_attr($('#carriage_type').val());
 
     $('#carriage_type').on('change', function (e) {
-        $(".field").val("");
+        $(".places input").val("");
         $('.places').hide();
         show_carriage_attr(e.target.value);
     });
