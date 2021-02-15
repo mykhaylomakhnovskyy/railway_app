@@ -1,6 +1,6 @@
-<%= form_for [:admin, @train] do |form| %>
+<%= form_for [:admin, train], html: { style: "display: #{hidden ? 'none' : 'block'}" } do |form| %>
 
-  <%= render 'common/errors', resource: @train %>
+  <%= render 'common/errors', resource: train %>
 
   <div class="field">
     <%= form.label :number %>

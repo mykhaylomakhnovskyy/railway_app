@@ -1,13 +1,11 @@
-$(document).ready(function(){
+$(document).ready(() => {
     $('.places').hide();
-    show_carriage($('#carriage_type').val());
-
-    $('#carriage_type').on('change', function (e) {
-        $(".places input").val("");
+    show_fields($('#carriage_type').val());
+    $('.field').on('change', (e) => {
         $('.places').hide();
-        show_carriage(e.target.value);
+        show_fields(e.target.value);
     });
-    function show_carriage(type) {
+    function show_fields(type) {
         if(type === 'CoupeCarriage') {
             $('.upper_pl').show();
             $('.down_pl').show();

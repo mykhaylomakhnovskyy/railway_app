@@ -6,7 +6,7 @@
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <%= javascript_include_tag "application" %>
     <%= link_to t('.home'), welcome_index_path%>
     <%= link_to t('.stations'), admin_railway_stations_path%>
     <%= link_to t('.trains'), admin_trains_path %>
