@@ -1,4 +1,4 @@
-$(document).ready(() => {
+$(document).on('turbolinks:load', function(){
     $('.places').hide();
     show_fields($('#carriage_type').val());
     $('.field').on('change', (e) => {
