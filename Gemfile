@@ -8,7 +8,6 @@ gem 'rails', '~> 6.1.1'
 # Use sqlite3 as the database for Active Record
 gem 'pg', '~> 1.2.3'
 
-gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'rails-ujs', '~> 0.1.0'
 
 gem 'sendgrid-actionmailer'

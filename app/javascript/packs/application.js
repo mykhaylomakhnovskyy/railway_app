@@ -8,9 +8,10 @@ import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 
-require("packs/carriages")
-require("packs/railway_stations")
-require("packs/trains")
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+require("jquery")
+require("packs/carriages")
+require("packs/railway_stations")
+require("packs/trains")
