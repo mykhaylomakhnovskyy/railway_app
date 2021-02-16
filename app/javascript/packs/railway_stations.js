@@ -3,7 +3,7 @@ $(document).on('turbolinks:load', function(){
         e.preventDefault();
         var station_id;
         var form;
-         title;
+        var title;
 
         station_id = $(this).data('stationId');
         form = $('#edit_railway_station_' + station_id);

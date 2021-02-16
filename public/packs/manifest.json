@@ -1,14 +1,44 @@
 {
-  "application.js": "/packs/js/application-2d24cb02e79dc1ee88b7.js",
-  "application.js.map": "/packs/js/application-2d24cb02e79dc1ee88b7.js.map",
+  "application.js": "/packs/js/application-980413e9353220219bd9.js",
+  "application.js.map": "/packs/js/application-980413e9353220219bd9.js.map",
+  "carriages.js": "/packs/js/carriages-5218d9b7246ff2916477.js",
+  "carriages.js.map": "/packs/js/carriages-5218d9b7246ff2916477.js.map",
   "entrypoints": {
     "application": {
       "js": [
-        "/packs/js/application-2d24cb02e79dc1ee88b7.js"
+        "/packs/js/application-980413e9353220219bd9.js"
       ],
       "js.map": [
-        "/packs/js/application-2d24cb02e79dc1ee88b7.js.map"
+        "/packs/js/application-980413e9353220219bd9.js.map"
+      ]
+    },
+    "carriages": {
+      "js": [
+        "/packs/js/carriages-5218d9b7246ff2916477.js"
+      ],
+      "js.map": [
+        "/packs/js/carriages-5218d9b7246ff2916477.js.map"
+      ]
+    },
+    "railway_stations": {
+      "js": [
+        "/packs/js/railway_stations-b9e5c9921279a8941b6a.js"
+      ],
+      "js.map": [
+        "/packs/js/railway_stations-b9e5c9921279a8941b6a.js.map"
+      ]
+    },
+    "trains": {
+      "js": [
+        "/packs/js/trains-03f1ea8c156c5d683207.js"
+      ],
+      "js.map": [
+        "/packs/js/trains-03f1ea8c156c5d683207.js.map"
       ]
     }
-  }
+  },
+  "railway_stations.js": "/packs/js/railway_stations-b9e5c9921279a8941b6a.js",
+  "railway_stations.js.map": "/packs/js/railway_stations-b9e5c9921279a8941b6a.js.map",
+  "trains.js": "/packs/js/trains-03f1ea8c156c5d683207.js",
+  "trains.js.map": "/packs/js/trains-03f1ea8c156c5d683207.js.map"
 }
