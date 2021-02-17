@@ -9,6 +9,7 @@ class RailwayStation < ApplicationRecord
     select('railway_stations.*, railway_stations_routes.station_position')
       .joins(:railway_stations_routes)
       .order('railway_stations_routes.station_position')
+      .uniq
   }
 
   def update_position(route, position)
